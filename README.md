@@ -1,12 +1,10 @@
-```markdown
 # Reverse Shell  
-The Python reverse shell script  
+A Python reverse shell script for educational and ethical penetration testing.  
 
 # 🛠️ Python Reverse Shell  
 [![Python 3.x](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)  
 
 ## 📜 Table of Contents  
-- [Introduction](#introduction)  
 - [Features](#features)  
 - [Installation](#installation)  
 - [Usage](#usage)  
@@ -30,13 +28,15 @@ To get started with this tool, follow these steps:
     chmod +x reverse_shell.py
     ```
 
-2. **Install the Required Python Packages**:  
-    Make sure you have Python installed:  
+2. **Ensure You Have Python Installed**:  
+    ```bash
+    python3 --version
+    ```
+
+3. **Run the Script**:  
     ```bash
     python3 reverse_shell.py
     ```
-
-3. **You’re Ready to Go!**  
 
 ## 🕹️ Usage  
 
@@ -44,21 +44,3 @@ To get started with this tool, follow these steps:
 Before running the script, set up a Netcat listener on your machine:  
 ```bash
 nc -lvp 4444
-```
-
-### **Running the Reverse Shell**  
-Modify the script and replace the `host` variable with your own IP address. Then, execute the script on the target machine:  
-```bash
-python3 reverse_shell.py
-```
-
-### **Example Commands**  
-
-**Running the Reverse Shell:**  
-```bash
-python3 reverse_shell.py
-```
-
-## ⚠️ Disclaimer  
-This tool is intended **only for educational and authorized penetration testing purposes**. Do not use this script on any system without explicit permission. Unauthorized use of this tool to gain access to systems is illegal and unethical. The developers of this tool are not responsible for any misuse or damage caused by this tool.  
-
